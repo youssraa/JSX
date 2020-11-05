@@ -10,13 +10,16 @@ const heading ={
   borderColor : 'black' ,
   width : '100vw'
 }
+const user ={
+  name : "Yosra" 
+}
 
 function App() {
   return (
     <>
 <div style={heading}>
 
-<h1 class="title red">Your name here</h1>
+  <h1 class="title red">hello {user.name}</h1>
 <br/>
 <img src="/imageInPublic.jpg" />
 <br/>
